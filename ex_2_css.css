@@ -1,0 +1,85 @@
+*{
+  font-family: tahoma;
+}
+
+#header{
+	border-bottom: 2px solid #db2927;
+  position: relative;
+}
+
+#contact{
+  position: absolute;
+  right: 0;
+  bottom:0;
+  margin:5px;
+}
+
+#email,#skype{
+  margin:2px;
+  font-size: 13px;
+  color:black;
+}
+
+#email a,#skype a{
+  color:#045198;
+}
+
+#form-heading{
+  margin-top: 20px;
+  font-size: 18px;
+  color:#2c286d;
+}
+
+#form{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form-box{
+  background-color: #ececec;
+  border-color:#bcbcbc;
+  padding: 20px 0px 20px 30px;
+}
+#form-box label{
+  padding-right: 20px;
+  display: inline-block;
+  width:100px;
+  text-align: right;
+  font-size: 14px;
+  color: black;
+}
+
+#form-box>input{
+  margin:6px 0px;
+  width: 360px;
+  height: 25px;
+  background-color: white;
+  border-color:#b9b9b9;
+}
+#form-box .radio-label{
+  width:auto;
+  font-size: 13px;
+  color:#6f6f6f;
+}
+
+#form-box #submit{
+  background-color: #dc2927;
+  border-color: #a10200;
+  width: 130px;
+  height:32px;
+  text-align: center;
+  font-size: 14px;
+  color:white;
+  margin-left: 125px;
+}
+
+#form-box textarea{
+  margin:6px 0px;
+  height:135px;
+  width: 360px;
+  background-color: white;
+  border-color: #b9b9b9;
+}
+#textarea label{
+  vertical-align: top;
+}
